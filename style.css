@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+
+}
+
+#header-logo {
+    padding: 18px;
+}
+.header-links {
+    display: flex;
+    margin-left: auto;
+}
+
+.right-links {
+    display:flex;
+    list-style: none;
+    gap: 20px;
+    margin-right: 10px;
+}
