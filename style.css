@@ -1,14 +1,23 @@
 body {
     padding:0px;
     margin:0px;
-    font-family: 'Roboto', sans-serif, serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-.header {
+p {
+    text-align: center;
+}
+
+h2 {
+    margin-left:25%;
+}
+
+.header, .footer {
     display: flex;
     background-color: #1f2937;
     color: white;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -35,17 +44,20 @@ body {
     color: white;
     align-items: center;
     justify-content: center;
-    padding: 70px 40px;
+    padding: 80px 40px 120px 40px;
 }
 
 .hero-title {
     font-size: 50px;
     max-width: 500px;
+    margin-bottom: 0;
 }
 
 .hero-subtext {
     max-width: 400px;
-    
+    font-size: 18px;
+    color: #efe7eb;
+    padding-bottom: 10px;
 }
 
 .hero-signup {
@@ -59,11 +71,98 @@ body {
 
 .hero-image {
     display: flex;
-    width: 500px;
-    height: 220px;
+    width: 480px;
+    height: 230px;
     background-color: #6d747d;
     align-items:center;
     justify-content: center;
+    margin-top: 30px;
 }
 
+.information-container {
+  
+}
 
+.information-header {
+    display: flex;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.information-images {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+}
+
+.image-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 30px 20px 50px 20px;
+}
+
+.icon {
+    height: 160px;
+    width: 160px;
+    border-radius: 8px;
+    border-color: blue;
+    border-width: 10px;
+}
+
+.quote-container {
+    background-color:#e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#quote {
+    font-size: 36px;
+    max-width: 800px;
+    font-weight:light;
+    font-style: italic;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.action-call {
+    display: flex;
+    background-color: #3b82f6;
+    color: white;
+    padding: 50px 100px;
+    max-width: 800px;
+    margin: 80px auto 80px auto;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.action-signup {
+    background-color: #3b82f6;
+    color: white;
+    padding: 8px 30px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.footer {
+    padding: 40px;
+}
