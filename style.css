@@ -2,6 +2,8 @@ body {
     padding:0px;
     margin:0px;
     font-family: 'Roboto', sans-serif;
+    color: #283D3B;
+    background-color: #F8F7F2;
 }
 
 p {
@@ -14,8 +16,8 @@ h2 {
 
 .header, .footer {
     display: flex;
-    background-color: #1f2937;
-    color: white;
+    background-color: #EDDDD4;
+    color: #283D3B;
     align-items: center;
     justify-content: center;
 
@@ -40,7 +42,7 @@ h2 {
 
 .hero {
     display: flex;
-    background-color: #1f2937;
+    background-color: #438489;
     color: white;
     align-items: center;
     justify-content: center;
@@ -61,8 +63,8 @@ h2 {
 }
 
 .hero-signup {
-    background-color: #3b82f6;
-    color: white;
+    background-color: #DBBBA9;
+    color: #283D3B;
     padding: 8px 30px;
     font-weight: bold;
     font-size: 18px;
@@ -79,13 +81,18 @@ h2 {
     margin-top: 30px;
 }
 
+.pic {
+    border: #283D3B 3px solid;
+}
+
 .information-container {
   
+
 }
 
 .information-header {
     display: flex;
-    color: #1f2937;
+    color: #283D3B;
     justify-content: center;
     align-items: center;
     font-size: 35px;
@@ -109,15 +116,13 @@ h2 {
 }
 
 .icon {
-    height: 160px;
+    height: 190px;
     width: 160px;
     border-radius: 8px;
-    border-color: blue;
-    border-width: 10px;
 }
 
 .quote-container {
-    background-color:#e5e7eb;
+    background-color:#EDDDD4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,7 +143,7 @@ h2 {
 
 .action-call {
     display: flex;
-    background-color: #3b82f6;
+    background-color: #438489;
     color: white;
     padding: 50px 100px;
     max-width: 800px;
@@ -154,7 +159,7 @@ h2 {
 }
 
 .action-signup {
-    background-color: #3b82f6;
+    background-color: #438489;
     color: white;
     padding: 8px 30px;
     font-weight: bold;
